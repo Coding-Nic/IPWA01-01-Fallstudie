@@ -1,0 +1,165 @@
+/* Allgemeine Header-Stile */
+.header {
+    background-color: #f8f9fa; 
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    height: 50px;
+    width: auto; 
+}
+
+.header-link {
+    color: #343a40;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+}
+/* Navigation-Links anpassen */
+.nav-link {
+    color: #343a40; 
+    font-weight: 5000;
+    margin: 5px 0; 
+}
+
+.nav-link:hover {
+    text-decoration: underline; 
+}
+
+/* Anordnung der Navigation */
+.navbar {
+    padding: 0.5rem 1rem;  
+}
+
+/* Flexbox-Anpassung für Navbar-Elemente */
+.navbar-brand {
+    margin-right: auto; 
+}
+
+.navbar-toggler {
+    margin-left: auto; 
+}
+
+@media (min-width: 992px) {
+    .navbar-brand {
+        margin-right: 0;  
+    }
+}
+
+
+
+/* Responsives Design für Header-Smartphones */
+@media (max-width: 300px) {
+    .header .container {
+        flex-direction: column;
+        align-items: center;    
+    }
+
+    .header-logo {
+        margin-bottom: 10px; 
+    }
+
+    .header-link {
+        display: block;
+        margin: 5px 0; 
+    }
+}
+
+/* Allgemeiner Content-Stil */
+
+.blocksatz {
+    text-align: justify;
+  }
+.blocksatz-liste{
+    text-align: justify;
+    margin: 10px 0;
+}
+
+  section{
+    margin: 20px 10px;
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+
+ 
+ .table {
+    margin-top: 5px;
+    margin-bottom: 15px;
+ }
+
+.col-md-5{
+    margin: 10px 0;
+}
+
+
+.text-center{
+    margin: 15px auto;
+}
+
+ /* Responsives Design für Section-Smartphones */
+@media (max-width: 1024px) {
+    section {margin: auto 10px;}}
+
+/* Allgemeine Footer-Stile */
+.footer {
+    background-color: #f8f9fa; 
+    width: 100%;
+    border-top: 1px solid #e7e7e7;
+    padding: 15px 0;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.footer-link {
+    color: #343a40; 
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 10px;
+    font-weight: 500;
+}
+
+.footer-link:hover {
+    text-decoration: underline; 
+}
+
+/* Responsives Design für Smartphones */
+@media (max-width: 768px) {
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .footer-link {
+        margin: 8px 0; 
+    }
+}
+
+.center-container {
+    text-align: center;  
+    margin-bottom: 20px;
+}
+
+.responsive-image {
+    width: 100%;     
+    max-width: 600px;  
+}
+
+/* Standard-Layout für Desktop-Ansicht */
+.container {
+    max-width: 1200px;    
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Breitere Bildschirme */
+@media (min-width: 992px) {
+    body {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+
+
